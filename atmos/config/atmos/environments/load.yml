@@ -1,0 +1,18 @@
+environment: "#{atmos_env}"
+name_prefix: "l"
+name_postfix: ""
+domain: "driftqa.com"
+drift_me_domain: "driftqa.me"
+internal_domain: "int.driftqa.com"
+aws_region: "us-east-1"
+aws_keypair_name: "drift-qa-main"
+aws_keypair_path: "~/.ssh/drift-qa-main.pem"
+ssl_cert_arn: "arn:aws:acm:us-east-1:748875031154:certificate/e4c0dc92-22e9-4c22-a2d1-4c6d113816a5"
+internal_ssl_cert_arn: "arn:aws:acm:us-east-1:748875031154:certificate/f8fde4fa-fa6e-4ecc-a96e-c0bf612ee716"
+google_site_verification_drift_me: ""
+availability_zones: ["us-east-1a", "us-east-1c"]
+vpc_cidr: "10.10.0.0/16"
+public_subnet_cidrs: ["10.10.32.0/20", "10.10.96.0/20"]
+private_subnet_cidrs: ["10.10.0.0/19", "10.10.64.0/19"]
+vpn_client_cidr: "192.168.255.0/24"
+config_service_base_url: "https://config.int.driftqa.com"
