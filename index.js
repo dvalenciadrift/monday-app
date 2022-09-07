@@ -89,7 +89,7 @@ function createMondayItem(contactFirstName, contactLastName, contactEmail, conve
         }
     })
         .then(res => {
-            console.log('Query Leads', res.data.data.items_by_column_values)
+            console.log('Query Leads ', res.data.data.items_by_column_values)
             if (res.data.data.items_by_column_values.length > 0) {
                 console.log(`A lead with the email ${contactEmail} already exists. The name is ${res.data.data.items_by_column_values[0].name}`)
             } else {
