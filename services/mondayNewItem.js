@@ -1,9 +1,10 @@
 const axios = require("axios");
 const MONDAY_AUTH_TOKEN = process.env.MONDAY_AUTH_TOKEN;
+const BOARD_ID = provess.env.BOARD_ID;
 
 const mondayNewItem = (contactFirstName, contactLastName, contactEmail) => {
 	const variables = {
-		boardId: 3169358815,
+		boardId: BOARD_ID,
 		itemName: `${contactFirstName} ${contactLastName}`,
 		columnValues: JSON.stringify({
 			email: { email: `${contactEmail}`, text: `${contactEmail}` },
