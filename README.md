@@ -31,7 +31,11 @@ This project leverages core libraries/dependencies that are listed below:
 #### Environment Variables
 
 `DRIFT_TOKEN` - The Bearer Token generated when you installed the app to your Drift Org
+
 `MONDAY_AUTH_TOKEN` - Monday.com API Authorization token
+
 `BOARD_ID` - Monday.com Board ID where you want to save Contacts and Conversation records
+
 `PORT` - For Development only - Port where you will start your server
+
 `DEV_MODE` - Boolean to check if you are running Dev or Production mode
